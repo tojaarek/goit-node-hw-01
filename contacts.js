@@ -56,7 +56,7 @@ function addContact(name, email, phone) {
     return newContact;
   } catch (error) {
     console.error(error.message);
-    return null;
+    return;
   }
 }
 
